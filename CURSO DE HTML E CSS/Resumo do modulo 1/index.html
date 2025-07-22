@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo do Módulo 1 </title>
+</head>
+<style>
+   
+    ul{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+        text-align:justify;
+        font-size: 15px;
+        background-color: gray;
+    }
+    h1{
+        color: white;
+    }
+    h2{
+        color: white;
+    }
+        
+    
+</style>
+<body>
+        <h1 style="background-color: violet; color: yellow;">Tags usadas em html</h1>
+        <ul>
+            <LI>H1: Titulo de primeiro nivel</LI>
+            <li>H2: Titulo de segundo nivel.</li>
+            <li>H3: Titulo de terceiro nivel.</li>
+            <li>h4: Titulo de quarto nivel.</li>
+            <li>h5: Titulo de quinto nivel.</li>
+            <li>h6: Titulo de sexto nivel.</li>
+           <strong>OBS: Somente vai ate o sexto nivel.</strong>
+        </ul>
+        <ul>
+           <li>P: Usado na criação de Parágrafos</li>
+           <li>br: Usado para criar quebras de linha</li>
+           <li>& gt;: Cria um sinal de maior &gt;</li>
+           <li>& Lt;: Cria um sinal de menor &lt;</li>
+           <li>&#x + código do emoji: para adicionar um emoji. <strong>EX: & # x 1 f 6 2 d; .</strong></li>
+           <li>Img: Para adiconar um imagem.</li>
+           <li>Lorem: gera um texto cheio de blá blá blá</li>
+           <li>Code: cria fontes monoespaçadas</li>
+           <li>Pré: organiza comforme o código é escrito.<strong> OBS: Poe ser combinado a outras tags como por exemplo a tag code.</strong></li>
+           <li>Q: serve para colocar aspas quando for um citção simples.</li>
+           <li>Blockqute:Cria uma citação mais complexa.</li>
+           <li>abbr: mostra o significado de uma sigla.</li> 
+           <li>ol: lista ordenadas.<strong>( sempre usar o li em seguida dentro do par de tags.)</strong></li> 
+           <li>Ul: Listas não ordenadas.<strong>( sempre usar o li em seguida dentro do par de tags.)</strong></li>   
+           <LI>DL: Lista de definição.</LI>
+           <li>Dt: termo da lista.</li> 
+           <li>DD: Descriçao da lista.</li>  
+           <li>A: cria um link.(Usado de varias formar</li> 
+        </ul>
+        <h2>Tags Não semanticas.</h2>
+        <ul>
+            <li>B: deixa a palavra em negrito</li>
+            <li>I: deixa a palavra em Italico</li>
+            <li>Mark: Usado como marca texto</li>
+            <li>U: cria um texto sublinhado</li>
+        </ul>
+        <h2>Tags com semanticas</h2>
+        <ul>
+            <li>Strong: coloca a frase em negrito.</li>
+            <li>Em: deixa a frase em Italico.</li>
+            <li>small: deixa o texto um pouco menor.</li>
+            <li>del: cria um texto deletado.</li>
+            <li>INS: Cria um texto inserido</li>
+            <li>sup: cria texto sobescrito.</li>
+            <LI>Sub: Cria um texto subescrito.</LI>
+
+        </ul>
+        <h2>Tags em HTML Que usar sources ou pode ser combinadas com , source.</h2>
+        <ul>
+            <li>audio: serve para colocar audio no site. Usamo o parametro (source : src) (MP3, WAV, FLAC, AAC e WMA). </li>
+            <li>picture : sere para colocar imagens dinamicas.Usamos o parametro ( source: media type) (JPEG, PNG, BMP, GIF e TIFF)</li>
+            <li>video: serve para adiconar videos.Usamo o parametro (source: src) ( mp4,m4v,webm.obv).</li> 
+            <pre>
+                <p>Obs: todas essa tags dever ser usadas da seguinte forma:
+   &lt;Tag html&gt;
+
+    source
+    source
+                
+   &lt;Tag html&gt;
+   obs: Parametros usados dentros do par de tags dos arquivos:
+   widht: configura largura(Usado em imagem e video)
+   height: configura altura(Usado em imagem e video)
+   controls: para aparecer controles.(Usado em audio e video)
+   loop: apos o fim do video ou audio ele volta do inicio e repede.(Usado em audio e video)
+   poster: usado para criar thumbanail(usado em video).
+
+   preloud:metadata= carrega apenmas informaçãoes.( Usado em audio)
+   preolud:none= não carrega nada até iniciar o play.(Usado em audio)
+   preloud auto( padrão)= carrega o audio assim que a pagina é carregada(Usado em audio).
+   
+
+                
+                </p>
+            </pre>
+        </ul>
+   <h2>Prametros usados em css.</h2>
+   <ul>
+    <li>Style: inicia qual estilo voce quer colocar no seu site.</li>
+    <li>Fonte family: muda o fonte de uma letra:</li>
+    <li>color: Muda a cor da letra.</li>
+    <li>text align; justify; : organiza o seu conteudo e deixar todas a linhas iguais.</li>
+    <li>text align; Right: o texto fica a direita </li>
+    <li>text- decoration : underline; : texto sublinhado.</li>
+    <LI>fonte-size: defini o tamhano da fonte de um texto</LI>
+    <li>background-color: defini cor de fundo</li>
+   </ul>
+   <h2> Atributos REL e TARGET</h2>
+   <UL>
+    <li>Rel external: indica algo externo ( Usado em links>)</li>
+    <li>Rel next : Proxima pagina ( Usado em links>)</li>
+    <li>Rel prev: Pagina anterior ( Usado em links>)</li>
+    <li>Rel noflow: nao da importancia ao conteuo do link. ( Usado em links>)</li>
+    <LI>Target _blank: abre uma nova guia. ( Usado em links>) </LI>
+    <li>Target _self: abre na mesma guia. ( Usado em links>)</li>
+    
+   </UL>
+   <h1>Iformações importantes para nao se esquecer.</h1>
+   <p>Existem Tags anigas em HTMl que nao são mais usadas, Elas são chamadas de tags obsoletas. <br>
+    todos as tags de img, audio e video, nao esquecer de adionar mais de um formato ou tamanho de arquivo.
+    Existem  tres formar de usar css.
+    1 forma: inline usa o css na mesma linha( não recomendado, apenas para situações especificas)
+    2 forma: Local/interna: usa o css no cabeçário do codigo.
+    3 forma: Externo= usa o css em uma pagina externo o mais usado e recomendado, use sempre que puder)
+
+
+
+</p>
+</body>
+</html>

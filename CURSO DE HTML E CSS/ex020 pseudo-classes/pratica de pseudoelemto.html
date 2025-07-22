@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática</title>
+    <style>
+        div{
+            display: inline-block;
+            background-color: rgb(177,  170, 170);
+            border: 1px solid black;
+            text-align: center ;
+            height: 300px ;
+            width:300px;
+            font-size: 3em;
+           
+         }
+         div#d1:hover{
+            background-color: yellow;
+         }
+         div#d2:hover{
+             background-color: lime;
+         }
+         div#d3:hover{
+           background-color: aquamarine;
+         }
+         body{
+            font-family: Arial, Helvetica, sans-serif;
+         }
+         a{
+            color: darkred;
+            text-decoration: none;
+            font-size: 20px;
+         }
+         a::before{
+            content: "🐵";
+         }
+         a:hover{
+            color: black;
+            text-decoration: underline;  
+         }
+         a:visited{
+            color: blue;
+         }
+         .unico::after{
+            content:"🙂";
+         }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="d1">d1</div>
+    <div id="d2">d2 </div>
+    <div id="d3">d3</div>
+        
+
+    <h1>Trabalhando com links</h1>
+    
+        <p>
+            <ul>
+                <li><a href="https://youtube.com" target="_blank">acesse o youtube</a></li>
+                <li><a href="ttps://www.instagram.com" target="_blank" class="unico"> acesse o instagram</a></li>
+                <li><a href="https://animesonlinecc.to" target="_blank"> acesse meu canal de animes</a></li>
+        </p>
+        
+    </div>
+</body>
+</html>

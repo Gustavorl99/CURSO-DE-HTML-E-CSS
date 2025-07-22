@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Elementos</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color:  rgb(112, 24, 253);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 2em;
+         }
+
+        a:visited {
+                 color:orange;           
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: rgb(243, 11, 11);
+        }
+        .especial::before{
+                content: "♛";
+                
+        }
+        .especial::after {
+            content: "♛";
+      }
+      .especial {
+        background-color: darkred;
+        color: white;
+       
+          
+      }
+            
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com elementos</h1>
+    <ul>
+        <li><a href="https://youtube.com" target="_blank" rel="external
+            ">acesse o youtube</a></li>
+        <li><a href="https://www.instagram.com" target="_blank" rel="external
+            " class="especial">acesse o Instagram</a></li>
+        <li><a href="https://animesonlinecc.to" target="_blank" rel="external
+            ">acesse o animes online</a></li>
+    </ul>
+    
+</body>
+</html>
